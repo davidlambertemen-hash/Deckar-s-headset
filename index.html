@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap-5.3.8-dist/js/bootstrap.js">
     <link rel="icon" type="image/png" href="img/logo 1.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
 </head>
 <body>
-   <div style="position: relative;">
-      <div style="background-image: url(img/headset3.jpg);height: 100vh;background-size: cover;">
-        <div style="background-color: black;height: 100%;width: 100%;filter: opacity(60%);position: absolute;">
+<div style="position: relative;">
+      <div style="background-image: url(img/headset3.jpg);height: 100vh;background-size: cover;" class="">
+        <div style="background-color: black;height: 100%;width: 100%;filter: opacity(50%);position: absolute;" class="">
         <nav class="navbar navbar-expand-lg bg-transparent">
-  <div class="container-fluid">
+    <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="img/logo 1.png " alt="" style="height: 5%;width: 5%;"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -21,13 +23,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 pe-5">
         <li class="nav-item">
-          <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white fw-bold" href="#buy">Buy</a>
+          <a class="nav-link text-white" href="#buy">Buy</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white fw-bold" href="#contact" role="button">
+          <a class="nav-link dropdown-toggle text-white" href="#contact" role="button">
             Contact Us
           </a>
           <ul class="dropdown-menu">
@@ -47,28 +49,26 @@
     </div>
   </div>
     <div class="pe-3"> 
-<button class="Btn">
-</button>
-    </div>
+  <button class="Btn">
+  </button>
+  </div>
   </nav>
   </div>
   <div class="container">
-        <div class="row py-5 my-5">
+        <div class="row py-5 my-5" data-aos="fade-up">
             <div class="col-lg-6 col-md-12 col-sm-12">
-              <p style="color: white;position: absolute;" class="fw-bold  pt-5">For your Everyday</p> 
+              <p style="color: white;position: absolute;" class="fw-bold  pt-5 mt-4">For your Everyday</p> 
               
-              <h1 style="color: white;position: absolute;font-size: 50px;" class="fw-bold mt-5 pt-5">We produce good <br> and quality <br> sound devices for everyday <br>use</h1>
+              <h1 style="color: white;position: absolute;font-size: 50px;" class="fw-bold mt-5 pt-5">We produce good <br> and quality sound <br> devices for everyday <br> use.</h1>
             </div>
     </div>
     </div>
-</div>
     </div>
     </div>
-      </div>
-      <div id="buy">
+  <div id="buy">
      <section class="py-5 my-5 bg-light-custom">
   <div class="container">
-    <div class="row g-4 align-items-center">
+    <div class="row g-4 align-items-center" data-aos="fade-up">
       <div class="col-12 col-md-6 col-lg-5 order-2 order-md-1">
         <div class="d-flex flex-column gap-4">
           <div class="card border-0 shadow-sm bg-transparent">
@@ -117,7 +117,7 @@
     </div>
                     
           <div class="d-grid d-sm-block">
-            <a href="#" class="btn btn-dark btn-lg px-4 py-3 rounded-3 fw-semibold shadow-sm">
+            <a href="#" class="btn btn-primary btn-sm px-4 py-3 rounded-3 fw-semibold shadow-sm">
               Buy Today
             </a>
           </div>
@@ -128,61 +128,76 @@
   </div>
 </section>
   </div>
-  <div class="container my-5">
+  <div class="container my-5 pe-5" data-aos="fade-down">
   <div class="d-flex justify-content-between align-items-end mb-4">
     <h2 class="news-heading m-0">Products</h2>
     <a href="#" class="see-all-link text-decoration-none">See all products <i class="bi bi-arrow-right"></i></a>
   </div>
 
-  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4" >
     
     <div class="col">
       <div class="">
         <div class="image-wrapper">
-          <img src="img/set5.jpg" class="news-img" alt="Real Madrid Training" style="width: 100%;" class="img-fluid">
+          <img src="img/set5.jpg" class="news-img hover-transform" alt="Real Madrid Training" style="width: 100%;" class="img-fluid">
         </div>
-        <a href="#" class="news-title fw-bold" style="text-decoration: none;color: black;padding-left: 10%;"> Work Headset</a>
+        <a href="#" class="news-title" style="text-decoration: none;color: black;padding-left: 10%;"> Work Headset</a>
       </div>
     </div>
 
     <div class="col">
       <div class="">
         <div class="image-wrapper">
-          <img src="img/main2.jpg" class="news-img" alt="Moment of Silence" style="width: 100%;" class="img-fluid">
+          <img src="img/main2.jpg" class="news-img hover-transform" alt="Moment of Silence" style="width: 100%;" class="img-fluid">
         </div>
-        <a href="#" class="news-title fw-bold" style="text-decoration: none;color: black;">Noise Cancellation Headsset</a>
+        <a href="#" class="news-title" style="text-decoration: none;color: black;">Noise Cancellation Headsset</a>
       </div>
     </div>
 
     <div class="col">
       <div class="">
         <div class="image-wrapper">
-          <img src="img/main3.jpg" class="news-img" alt="Mbappe Goals" style="width: 100%;" class="img-fluid">
+          <img src="img/main3.jpg" class="news-img hover-transform" alt="Mbappe Goals" style="width: 100%;" class="img-fluid">
           <div class="">
             <i class="bi bi-play-fill"></i>
           </div>
         </div>
-        <a href="#" class="news-title fw-bold" style="text-decoration: none;color: black;">Gaming Headset</a>
+        <a href="#" class="news-title" style="text-decoration: none;color: black;">Gaming Headset</a>
       </div>
     </div>
 
     <div class="col">
       <div class="">
         <div class="image-wrapper">
-          <img src="img/main4.jpg" class="news-img" alt="El Clásico Triumph" style="width: 100%;" class="img-fluid">
+          <img src="img/main4-removebg-preview.png" class="news-img hover-transform" alt="El Clásico Triumph" style="width: 100%;" class="img-fluid">
           <div class="">
             <i class="bi bi-play-fill"></i>
           </div>
         </div>
-        <a href="#" class="news-title fw-bold" style="text-decoration: none;color: black;">Pro Gaming Headset</a>
+        <a href="#" class="news-title" style="text-decoration: none;color: black;">Pro Gaming Headset</a>
       </div>
     </div>
+<style>
+  .hover-transform {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  .hover-transform:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1) !important;
+  }
+  .view-all-link i {
+    transition: transform 0.2s ease;
+  }
+  .view-all-link:hover i {
+    transform: translateX(4px);
+  }
+</style>
 
   </div>
 </div>
     <div id="contact">
     <div class="bg-white py-5">
-      <div class="container">
+      <div class="container" data-aos="fade-down">
   <div class="row">
     <div class="col-lg-12 col-sm-12">
       <h1 class="text-center py-5">Contact us</h1>
@@ -199,6 +214,11 @@
                     <input type="text" placeholder="Phone Number" style="width: 100%;padding: 12px;border: 1px solid #777777;margin-bottom: -1px;box-sizing: border-box;font-size: 14px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: #666666;"/><br><br>
                     <input type="text" placeholder="Comments" style="width: 100%;padding: 12px;border: 1px solid #777777;margin-bottom: -1px;box-sizing: border-box;font-size: 14px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: #666666;"/><br><br>
                 </form>
+                <div class="d-grid d-sm-block">
+            <a href="#" class="btn btn-primary btn-sm px-4 py-3 rounded-3 fw-semibold shadow-sm">
+              Submit
+            </a>
+          </div>
     </div>
   </div>
     </div>
@@ -253,7 +273,7 @@
 <body>
     <div style="background-color: royalblue;" class="py-5">
         <section class="hero-section">
-    <div class="container-fluid px-5">
+    <div class="container-fluid px-5 container" data-aos="fade-right">
         <div class="row mb-5">
             <div class="col-12">
                 <p class="text-white">The Voltcase Approach</p>
@@ -283,7 +303,7 @@
     </div>
 </section>
     <footer class="custom-footer" style="background-color: black;">
-    <div class="container py-4">
+    <div class="container py-4" data-aos="fade-left">
       <div class="row g-4">
         
         <div class="col-12 col-md-4">
@@ -356,5 +376,9 @@
   </footer>
     <script src="bootstrap-5.3.8-dist/js/bootstrap.js">
     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
 </body>
 </html>
